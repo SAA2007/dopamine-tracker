@@ -46,7 +46,7 @@ ttk.Combobox(root, textvariable=craving_var, values=[str(i) for i in range(1, 11
 ttk.Label(root, text="Trigger:").pack(pady=(10, 0))
 trigger_var = tk.StringVar()
 ttk.Combobox(root, textvariable=trigger_var, values=[
-    "Insta", "YouTube", "Boredom", "Stress", "H-content", "Gaming Urge", "Loneliness"
+    "Instagram", "YouTube", "Boredom", "Stress", "H-content", "Gaming Urge", "Loneliness"
 ], state="readonly").pack()
 
 ttk.Label(root, text="Action Taken:").pack(pady=(10, 0))

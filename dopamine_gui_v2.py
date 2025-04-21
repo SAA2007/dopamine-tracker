@@ -14,7 +14,7 @@ summary_path = os.path.join(desktop, "dopamine_summary.txt")
 
 # 🔁 Load or create dropdown data
 default_data = {
-    "triggers": ["Insta", "YouTube", "Boredom", "Stress", "H-content", "Gaming Urge", "Loneliness"],
+    "triggers": ["Instagram", "YouTube", "Boredom", "Stress", "H-content", "Gaming Urge", "Loneliness"],
     "actions": ["Scrolled", "Closed App", "Redirected to Coding", "Went for Walk", "Read Quran", "Watched Dev Video"],
     "moods": ["Clear", "Tired", "Focused", "Guilty", "Neutral", "Proud"]
 }

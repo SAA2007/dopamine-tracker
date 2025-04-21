@@ -11,3 +11,7 @@ credentials.json
 # Ignore temporary files created by the OS
 Thumbs.db
 .DS_Store
+
+# Ignore sensitive or secret data folders
+secret_data/
+.env
